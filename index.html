@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Insumos para Uñas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Insumos para Uñas</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="productos">
+        <h2>Catálogo de Productos</h2>
+        <div class="producto">
+            <img src="https://cherimoya.com.ar/wp-content/uploads/2023/02/Glase-gel4-scaled.jpg" alt="Esmalte de uñas">
+            
+            <h3>Esmalte Color Rojo</h3>
+            <p>Precio: $2500</p>
+
+            <button class="agregar-carrito" data-nombre="Esmalte Color Rojo" data-precio="2500">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_944945-MLM49526209930_032022-F.webp" alt="Lima de uñas">
+            <h3>Lima Profesional</h3>
+            <p>Precio: $600</p>
+            <button class="agregar-carrito" data-nombre="Lima Profesional" data-precio="600">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="torno.jpeg" alt="Torno">
+            <h3>Torno</h3>
+            <p>Precio: $15.000</p>
+            <button class="agregar-carrito" data-nombre="Torno" data-precio="15000">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="tips.jpeg" alt="Tips Soft gel">
+            <h3>Tips Soft Gel</h3>
+            <p>Precio: $8500</p>
+            <button class="agregar-carrito" data-nombre="Tips Soft gel" data-precio="8500">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="cabina.jpeg" alt="cabina">
+            <h3>Cabina</h3>
+            <p>Precio: $30000</p>
+            <button class="agregar-carrito" data-nombre="cabina" data-precio="30000">Agregar al carrito</button>
+        </div>
+        <!-- Agregar más productos -->
+    </section>
+
+    <section id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total-carrito">0</span></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Insumos para Uñas. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
